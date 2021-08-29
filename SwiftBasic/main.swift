@@ -19,6 +19,8 @@ print(dog) //Dog(name: "pomerain", gender: "Male")
 
 dog.name = "will" //가능
 
+let dogLet = Dog(name: "Buldok", gender: "Male")
+//dogLet.name = "change" 불가능 =>전체가 상수(클래스는 가능)
 
 
 class Cat {
@@ -33,16 +35,15 @@ class Cat {
 
 //cat은 Cat(name: "json", gender: "male")이라는 인스턴스 주소를가리킴
 //즉 바라보는 그 주소의 값을 변경하지 마시요
+//물론 당연히 상수인 gender는 바꾸지 못한다
 let cat = Cat(name: "json", gender: "male")
 print(cat.gender) //male
 cat.name = "Xml"
 print(cat.name)   //Xml
 
-//만약 var를 쓰면 다른 인스턴스를 사용가능
-var catVar = Cat(name: "VarCat", gender: "female")
-print(catVar.name) //VarCat
-catVar = cat
-print(catVar.name) //Xml
+
+//결론 : 클래스,구조체 모두 1차적으로 내부 프로퍼티를 따른다 하지만 인스턴스를 시켰을때
+//상수로 정의 한다면 클래스는 단지 주소를 가리키므로 상관없지만 구조체는 내부 프로퍼티와 상관없이 변경시키지 못한다
 
 
 //-------------------------------------------------------------------------------------
