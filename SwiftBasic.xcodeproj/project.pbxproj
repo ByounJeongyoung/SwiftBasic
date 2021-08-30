@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6F70A77B26DBCC330000900A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F70A77A26DBCC330000900A /* main.swift */; };
+		6F70A78126DCF1330000900A /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F70A78026DCF1330000900A /* Protocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,7 +29,10 @@
 		6F70A77426DBB46C0000900A /* Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optional.swift; sourceTree = "<group>"; };
 		6F70A77626DBC66B0000900A /* struct_class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = struct_class.swift; sourceTree = "<group>"; };
 		6F70A77826DBCC090000900A /* Init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Init.swift; sourceTree = "<group>"; };
-		6F70A77A26DBCC330000900A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		6F70A77A26DBCC330000900A /* Property.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
+		6F70A77C26DCC6680000900A /* Inheritance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inheritance.swift; sourceTree = "<group>"; };
+		6F70A77E26DCD02B0000900A /* assert_guard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assert_guard.swift; sourceTree = "<group>"; };
+		6F70A78026DCF1330000900A /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +70,10 @@
 				6F70A77426DBB46C0000900A /* Optional.swift */,
 				6F70A77626DBC66B0000900A /* struct_class.swift */,
 				6F70A77826DBCC090000900A /* Init.swift */,
-				6F70A77A26DBCC330000900A /* main.swift */,
+				6F70A77A26DBCC330000900A /* Property.swift */,
+				6F70A77C26DCC6680000900A /* Inheritance.swift */,
+				6F70A77E26DCD02B0000900A /* assert_guard.swift */,
+				6F70A78026DCF1330000900A /* Protocol.swift */,
 			);
 			path = SwiftBasic;
 			sourceTree = "<group>";
@@ -129,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F70A77B26DBCC330000900A /* main.swift in Sources */,
+				6F70A78126DCF1330000900A /* Protocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

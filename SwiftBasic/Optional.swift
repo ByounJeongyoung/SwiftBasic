@@ -44,6 +44,6 @@ if value == 6 {
 
 let string = "11"
 var stringToInt : Int! =  Int(string)
-//이때 stringToInt는 optional(12) => string에 문자가 오면 nil이기 때문
+//이때 stringToInt는 optional(11) => string에 문자가 오면 nil이기 때문
 //따라서 옵셔널 적용! => 이 예제에서는 반드시 값이 있다면 이렇게 사용할수 있다는것을 보여주는것일 뿐
 print(stringToInt + 1)
