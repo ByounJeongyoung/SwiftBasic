@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6F70A78126DCF1330000900A /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F70A78026DCF1330000900A /* Protocol.swift */; };
+		6F70A78526DF86910000900A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F70A78426DF86910000900A /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +33,8 @@
 		6F70A77C26DCC6680000900A /* Inheritance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inheritance.swift; sourceTree = "<group>"; };
 		6F70A77E26DCD02B0000900A /* assert_guard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assert_guard.swift; sourceTree = "<group>"; };
 		6F70A78026DCF1330000900A /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		6F70A78226DF82020000900A /* 초기화상속재정의.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "초기화상속재정의.swift"; sourceTree = "<group>"; };
+		6F70A78426DF86910000900A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,8 @@
 				6F70A77C26DCC6680000900A /* Inheritance.swift */,
 				6F70A77E26DCD02B0000900A /* assert_guard.swift */,
 				6F70A78026DCF1330000900A /* Protocol.swift */,
+				6F70A78226DF82020000900A /* 초기화상속재정의.swift */,
+				6F70A78426DF86910000900A /* main.swift */,
 			);
 			path = SwiftBasic;
 			sourceTree = "<group>";
@@ -135,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F70A78126DCF1330000900A /* Protocol.swift in Sources */,
+				6F70A78526DF86910000900A /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
